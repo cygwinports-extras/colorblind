@@ -1,0 +1,7 @@
+category: Accessibility
+requires: cygwin
+external-source: colorblind
+sdesc: "Color recalculation for colorblindness (runtime)"
+ldesc: "This library provides an unified way to recalculate colors
+in order to present alternative views on images for colorblind
+people."

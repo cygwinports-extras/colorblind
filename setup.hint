@@ -1,0 +1,6 @@
+category: Accessibility
+requires: libcolorblind0 libcolorblind-devel
+sdesc: "Color recalculation for colorblindness (meta-package)"
+ldesc: "This library provides an unified way to recalculate colors
+in order to present alternative views on images for colorblind
+people."
