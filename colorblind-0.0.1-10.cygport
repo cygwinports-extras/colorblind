@@ -1,0 +1,7 @@
+DESCRIPTION="Filters colors for colorblindness"
+HOMEPAGE="http://colorblind.alioth.debian.org/"
+SRC_URI="https://alioth.debian.org/frs/download.php/1952/${P}.tar.gz"
+
+PKG_NAMES="${PN} lib${PN}0 lib${PN}-devel"
+libcolorblind0_CONTENTS="usr/bin/*-0.dll usr/share/doc/"
+libcolorblind_devel_CONTENTS='usr/include/ usr/lib/'
